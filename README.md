@@ -1,10 +1,7 @@
 # Digital Multimeter
 
 ## Overview
-This project demonstrates a Digital Multimeter using an AVR microcontroller (ATMEGA32A) interfacing with an LCD and a Keypad. The sytems allows users to measure Current, Voltage, or Resistance.
-
-## Features
-- **Test:**
+This project demonstrates a Digital Multimeter using an AVR microcontroller (ATMEGA32A) interfacing with an LCD to display measurement values and a Keypad to select the active mode: Ammeter(Up to 200mA), Voltmeter(Up to 50V), or Ohmmeter. The circuit processes input through a differential Op-Amp and then a range selector, also utilizing an Op-Amp. Finally, the processed signal is sent to the AVR's ADC pins, which allows the measurement value to be displayed on the LCD.
   
 ## Software Used
 - **Proteus:** Schematic Design
