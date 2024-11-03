@@ -9,7 +9,8 @@ This project demonstrates a Digital Multimeter using an AVR microcontroller (ATM
 - **EasyEDA:** PCB Design
 
 ## Setup and Installation
-- Install Proteus and Microchip Studio(Optional: if you want to edit the code).
+- Install Proteus.
+- Install Microchip Studio(Optional: if you want to edit the code).
 - Clone this repository: 
   ```bash
   git clone https://github.com/mo2menwael/Digital-Multimeter.git
